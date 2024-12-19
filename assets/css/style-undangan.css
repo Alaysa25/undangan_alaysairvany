@@ -1,0 +1,753 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body {
+    background-color:  #F1B4BB;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#section-1 {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #132043;
+    width: 700px;
+    height: 110vh;
+    margin: 0 auto;
+    padding: 50px;
+}
+#bentuk {
+    width: 400px;
+    height: 700px;
+    background-color: #FFF4EA;
+    border-top-left-radius: 30% ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    overflow: hidden;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+#text {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #C96868;
+    font-family: 'Libre Baskerville', serif;
+}
+#text1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 33px;
+    color: #C96868;
+    font-family: 'Dancing Script', cursive;
+}
+.imgpengantin {
+    margin-top:6px;
+    padding-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+    width: 249px;
+    height: 230px;
+    object-fit: cover; 
+}
+.imgpengantin {
+    border: solid 1px #C96868;
+    border-radius: 49% 49% 0 0;
+    padding: 5px;
+    width: 190px;
+    margin-bottom: 40px; 
+}
+.date-container {
+    text-align: center;
+    color: #C96868;
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+.date-container span {
+    display: inline-block;
+    margin: 0 3px; /* Atur jarak antar elemen */ /* Sesuaikan ukuran font */
+}
+.separator {
+    margin: 0 10px;
+    font-weight: bold; 
+    font-size: 17px;
+}
+.number {
+    font-weight: bold;
+    font-size: 17px;
+}
+.tahun {
+    margin-top: 2px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #C96868;
+}
+#button {
+    background-color: #C96868;
+    color: #132043;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 20px;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 110px;
+    line-height: normal;
+    cursor: pointer;
+
+}
+#section-2 {
+    background-color: #132043;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 700px;
+    height: 100vh;
+    display: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+#isi {
+    background-color: #FFF4EA;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 100vh;
+    margin: 0 auto;
+}
+#ayatsuci {
+    padding-top: 200px;
+    padding-right: 30px;
+    padding-left: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 20px;  
+}
+#terjemahan {
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Lora', serif;
+
+}
+#section-3 {
+    position: relative;
+    background-color: #132043;
+    width: 700px;
+    height: 200vh;
+    margin: 0 auto;
+    display: none;
+}
+#wedding {
+    position: absolute;
+    text-align: center;
+    padding-left: 250px;
+    top: 60px;
+    color: #C96868;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+.pengantinwanita {
+    width: 168px;
+    height: 175px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 160px;
+}
+#nmwanita {
+    position: absolute;
+    padding-left: 272px;
+    top: 187px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: #C96868;
+  
+}
+#anakdari1 {
+    position: absolute;
+    padding-left: 272px;
+    top: 217px;
+    color: white;
+    font-family: 'Lobster', cursive;
+
+}
+#instagram1 {
+    position: absolute;
+    padding-left: 272px;
+    top: 270px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+#dan {
+    position: relative;
+    padding-left: 330px;
+    font-size: 50px;
+    top: 350px;
+    font-family: 'Dancing Script', cursive;
+    color: #C96868;
+}
+.pengantinpria {
+    width: 165px;
+    height: 175px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 430px;
+    left: 450px;
+}
+#nmpria {
+    position: absolute;
+    top: 461px;
+    padding-left: 265px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: #C96868;
+}
+#anakdari2 {
+    position: absolute;
+    top: 490px;
+    padding-left: 57px;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+#instagram2 {
+    position: absolute;
+    top: 540px;
+    padding-left: 345px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+#lovestory {
+    position: absolute;
+    text-align: center;
+    padding-left: 230px;
+    top: 780px;
+    color: #C96868;
+    font-size: 46px;
+    font-family: 'Dancing Script', cursive;
+}
+#bentuk2 {
+    position: absolute;
+    background-color: #FFF4EA;
+    width: 420px;
+    height: 520px;
+    top: 870px;
+    left: 146px;
+    overflow: auto;
+    padding: 20px;
+}
+#bentuk2 {
+    margin: 0 auto;
+    border: 10px double #C96868;
+    border-radius: 10px;
+    overflow: auto;
+}
+#tahun1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 21px;
+}
+.firstmeet {
+    border: 1px solid #C96868;
+    border-radius: 4px;
+    padding: 5px;
+    width: 228px;
+    margin-left: 60px;
+}
+#text2 {
+    padding-top: 13px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+}
+#text3 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+
+}
+#tahun2 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 21px;
+}
+.salingmengenal {
+    border: 1px solid #C96868;
+    border-radius: 4px;
+    padding: 5px;
+    width: 228px;
+    margin-left: 60px;
+}
+#text4 {
+    padding-top: 13px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 17px;
+    font-weight: bold;
+}
+#text5 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+#tahun3 {
+    padding-top: 40px;
+    padding-bottom: 10px; 
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 21px;   
+}
+.tunangan {
+    border: 1px solid #C96868;
+    border-radius: 4px;
+    padding: 5px;
+    width: 228px;
+    margin-left: 60px;
+}
+#text6 {
+    padding-top: 13px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+}
+#text7 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+#tahun4 {
+    padding-top: 40px;
+    padding-bottom: 10px; 
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 21px;
+}
+.finally {
+    border: 1px solid #C96868;
+    border-radius: 4px;
+    padding: 5px;
+    width: 228px;
+    margin-left: 60px;
+}
+#text8 {
+    padding-top: 13px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 17px;
+    font-weight: bold;
+}
+#text9 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 16px;
+}
+#section-4 {
+    background-color: #132043;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 700px;
+    height: 200vh;
+    display: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+#judultgl {
+    padding-top: 200px;
+    padding-left: 220px;
+    font-size: 23px;
+    font-family: 'Merriweather', serif;
+    color: #C96868;
+}
+#countdown {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 166px;
+    margin-bottom: 10px;
+}
+
+#countdown div {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #F8D7DA;
+    margin: 0 7px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+#hari {
+    text-align: center;
+    padding-left: 18px;
+    color: black;
+    font-family: 'Monsterrat', sans-serif;
+}
+#jam {
+    text-align: center;
+    padding-left: 18px;
+    color: black;
+    font-family: 'Monsterrat', sans-serif;
+}
+#menit {
+    text-align: center;
+    padding-left: 18px;
+    color: black;
+    font-family: 'Monsterrat', sans-serif;
+}
+#detik {
+    text-align: center;
+    padding-left: 18px;
+    color: black;
+    font-family: 'Monsterrat', sans-serif;
+}
+#hri {
+    display: inline;
+    padding-left: 196px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+#jm {
+    display: inline;
+    padding-left: 61px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+#mnt {
+    display: inline;
+    padding-left: 52px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+#dtk {
+    display: inline;
+    padding-left: 52px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+  
+}
+#tgl {
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-bottom: 44px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+#bentuk3 {
+    position: absolute;
+    margin-top: 92px;
+    margin-left: 97px;
+    height: 300px;
+    width: 510px;
+    background-color:  #FFF4EA;
+    border-radius: 50px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 22px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+}
+#bentuk4 {
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 97px;
+    height: 300px;
+    width: 510px;
+    background-color:  #FFF4EA;
+    border-radius: 50px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 22px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+}
+#akad {
+    font-family: 'Orbitron', serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    font-size: 23px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+#tglakad {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold; 
+    font-size: 20px;
+    padding-left: 100px;   
+}
+#pukul1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    padding-left: 115px;
+    padding-bottom: 37px;
+}
+#tempat1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    text-align: center;
+}
+#resepsi {
+    font-family: 'Orbitron', serif;
+    font-weight: bold;
+    text-decoration-line:  underline;
+    font-size: 24px;
+    padding-left: 170px;
+    padding-bottom: 50px;
+}
+#tglresepsi {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 110px;
+}
+#pukul2 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    padding-left: 115px;
+    padding-bottom: 37px;
+}
+#tempat2 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    text-align: center;
+}
+#section-5 {
+    background-color: #FFF4EA;
+    width: 700px;
+    height: 510px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#text10 {
+    padding-top: 70px;
+    padding-left: 237px;
+    font-size: 32px;
+    font-family: 'Dancing Script', cursive;
+    color: #132043;
+}
+#tamu {
+    font-family: "Baskerville", serif;
+    border-collapse: collapse;
+    width: 580px;
+    margin-left: 60px;
+    margin-top: 55px;
+}
+#tamu td, #tamu th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#tamu tr:nth-child(even){background-color: white;}
+
+#tamu tr:hover {background-color: white;}
+
+#tamu th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #132043;
+    color: white;
+}   
+#section-6 {
+    background-color: #FFF4EA;
+    width: 700px;
+    height: 580px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+} 
+#jdllks {
+    padding-top: 40px;
+    text-align: center;
+    left: 20px;
+    font-size: 34px;
+    font-family: "Baskerville", serif;
+    color: #132043;
+}
+#teks11 {
+    padding-top: 10px;
+    padding-left: 7px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Baskerville", serif;
+    color: black;
+}
+#maps {
+    margin-left: 110px;
+    margin-top: 20px;
+   
+}
+#maps {
+   border: 4px solid #132043;
+}
+#section-7 {
+   position: relative;
+   background-color: #132043;
+   width: 700px;
+   height: 160vh;
+   margin: 0 auto;
+   display: none;
+   padding: 40px;
+}
+#jdlglr {
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    color: #C96868;
+    font-size: 32px;
+    font-family: 'Caveat', cursive;
+}
+#teks9 {
+    padding-top: 13px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 13px; 
+    color: white;
+}
+#video {
+   padding-left: 90px;
+   padding-top: 40px;
+   width: 500px;
+    
+}
+.photos-container {
+   background-color: #FFF4EA;
+   margin-top: 80px;
+   margin-left: 3px;
+   width: 600px;
+   height: 400px;
+   border-radius: 20px;
+   padding: 10px;
+   overflow-x: scroll;
+   overflow-y: hidden;
+   white-space: nowrap;
+}
+.row {
+    width: 100px;
+    display: flex;
+}
+.row img {
+    padding: 20px 10px 20px;
+    width: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding left: 10px; 
+    padding-right: 10px;
+    border-radius: 20px;
+}
+#section-8 {
+    position: relative;
+    background-color: #132043;
+    width: 700px;
+    height: 210vh;
+    margin: 0 auto;
+    display: none;
+    padding: 40px;
+}
+#RSVP {
+    padding-top: 30px;
+    text-align: center;
+    left: 20px;
+    font-size: 34px;
+    font-family: "Baskerville", serif;
+    color: #C96868; 
+}
+#bentuk5 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 110px;
+    height: 300px;
+    width: 400px;
+    background-color:  #FFF4EA;
+    border-radius: 30px;
+    border: 3px solid #C96868;
+    padding: 10px;
+    font-family: "Baskerville", serif;
+}
+#bentuk5 label,
+#bentuk5 input, {
+    text-size: 13px;
+}
+#bentuk5 label {
+    padding-left: 30px;
+}
+#bentuk5 input {
+    margin-left: 30px;
+}
+#hadir, #tdkhadir {
+    marhin-left: 10px;
+}
+#text11 {
+    padding-top: 400px;
+    text-align: center;
+    left: 20px;
+    font-size: 34px;
+    font-family: "Baskerville", serif;
+    color: #C96868; 
+}
+#bentuk6 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 110px;
+    height: 300px;
+    width: 400px;
+    background-color:  #FFF4EA;
+    border-radius: 30px;
+    border: 3px solid #C96868;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px;
+
+}
+#mandiri {
+    position: relative;
+    left: 80px;
+}
+#text14 {
+    padding-top: 400px;
+    text-align: center;
+    left: 20px;
+    font-size: 34px;
+    font-family: "Baskerville", serif;
+    color: #C96868; 
+}
+#bentuk7 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 110px;
+    height: 300px;
+    width: 400px;
+    background-color:  #FFF4EA;
+    border-radius: 30px;
+    border: 3px solid #C96868;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px;
+
+}
